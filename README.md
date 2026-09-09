@@ -1,4 +1,4 @@
-# UniH$^3$: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration
+# UniH${}^3$: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration
 
 PyTorch implementation for UniH3: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration
 
