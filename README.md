@@ -10,7 +10,7 @@ PyTorch implementation for UniH<sup>3</sup>: Unifying Hierarchical Homogeneity a
 
 ## Visualization
 
-![](./assets/fig-comparison.png)
+![](./assets/comparison.png)
 
 ## Dataset
 
