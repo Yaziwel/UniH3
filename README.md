@@ -1,30 +1,32 @@
-# UniH<sup>3</sup>: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration
+# UniPET: a universal network for high-quality PET image denoising across varied dose reduction factors
+PyTorch re-implementation for 《[UniPET: a universal network for high-quality PET image denoising across varied dose reduction factors](https://www.sciencedirect.com/science/article/abs/pii/S1361841526001271)》[![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2606.11131)
 
-PyTorch implementation for UniH<sup>3</sup>: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/[2609.11156](https://arxiv.org/abs/2609.11156))
+This project has undergone a lengthy peer-review process, including multiple rejections over the past four years. Consequently, the original codebase became difficult to maintain, and we therefore reimplemented it in the current version. This is the initial public release of the code, and we will provide updates if any issues are identified. At the very least, the model architecture has been faithfully reproduced.
 
-:rocket::rocket::rocket:Check our paper collection of recent **Awsome-Medical-Image-Restoration** [![Star](https://img.shields.io/github/stars/Yaziwel/Awesome-Medical-Image-Restoration.svg?style=social&label=Star)](https://github.com/Yaziwel/Awesome-Medical-Image-Restoration)
+## Framework
 
-## Network Architecture
+![](./README.assets/framework.png)
 
-![](./assets/framework.png)
+
 
 ## Visualization
 
-![](./assets/fig-comparison.png)
-
-## Dataset
-
-We are currently working on this and plan to make the data publicly available in September 2026.
+![](./README.assets/vis_comparison.png)
 
 ## Citation
 
-If you find UniH$^3$ useful in your research, please consider citing:
+If you find UniPET useful in your research, please consider citing:
 
 ```bibtex
-@inproceedings{yang2026UniH3,
-      title={UniH$^3$: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration}, 
-      author={Zhiwen Yang and Jiayin Li and Chengyu Liu and Hui Zhang and Bingzheng Wei and Yan Xu},
-      booktitle={European Conference on Computer Vision},
-      year={2026},
+@article{yang2026unipet,
+  title={UniPET: a universal network for high-quality PET image denoising across varied dose reduction factors},
+  author={Yang, Zhiwen and Zhou, Yang and Chen, Haowei and Zhang, Hui and Zhao, Dan and Wei, Bingzheng and Xu, Yan},
+  journal={Medical Image Analysis},
+  pages={104059},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
+
+
+
