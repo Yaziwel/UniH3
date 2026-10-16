@@ -14,17 +14,22 @@ PyTorch implementation for UniH<sup>3</sup>: Unifying Hierarchical Homogeneity a
 
 ## Dataset
 
-We are currently working on this and plan to make the data publicly available in September 2026.
+| 数据集            | 模态                                            | 链接                                                         |
+| ----------------- | ----------------------------------------------- | ------------------------------------------------------------ |
+| **MedIR-2D-500K** | PET, CT, MRI, X-ray, OCT, Ultrasound, Pathology | [<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="20"/> Hugging Face - MedIR-2D-500K](https://huggingface.co/datasets/upyzwup/MedIR-2D-500K) |
+| **MedIR-3D-3K**   | PET, CT, MRI                                    | [<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="20"/> Hugging Face - MedIR-3D-3K](https://huggingface.co/datasets/upyzwup/MedIR-3D-3K) |
 
 ## Citation
 
-If you find UniH$^3$ useful in your research, please consider citing:
+If you find UniH<sup>3</sup> useful in your research, please consider citing:
 
 ```bibtex
-@inproceedings{yang2026UniH3,
-      title={UniH$^3$: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration}, 
-      author={Zhiwen Yang and Jiayin Li and Chengyu Liu and Hui Zhang and Bingzheng Wei and Yan Xu},
-      booktitle={European Conference on Computer Vision},
-      year={2026},
+@inproceedings{yang2026unih3,
+  title={UniH$^3$: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration},
+  author={Yang, Zhiwen and Li, Jiayin and Liu, Chengyu and Zhang, Hui and Wei, Bingzheng and Xu, Yan},
+  booktitle={European Conference on Computer Vision},
+  pages={395--413},
+  year={2026},
+  organization={Springer}
 }
 ```
