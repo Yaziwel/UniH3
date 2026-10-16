@@ -14,7 +14,7 @@ PyTorch implementation for UniH<sup>3</sup>: Unifying Hierarchical Homogeneity a
 
 ## Dataset
 
-| 数据集            | 模态                                            | 链接                                                         |
+| Dataset           | Modality                                        | Link                                                         |
 | ----------------- | ----------------------------------------------- | ------------------------------------------------------------ |
 | **MedIR-2D-500K** | PET, CT, MRI, X-ray, OCT, Ultrasound, Pathology | [<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="20"/> Hugging Face - MedIR-2D-500K](https://huggingface.co/datasets/upyzwup/MedIR-2D-500K) |
 | **MedIR-3D-3K**   | PET, CT, MRI                                    | [<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="20"/> Hugging Face - MedIR-3D-3K](https://huggingface.co/datasets/upyzwup/MedIR-3D-3K) |
